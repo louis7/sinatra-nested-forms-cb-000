@@ -13,4 +13,8 @@ class Ship
         @@all
     end
 
+    def Self.clear
+      @@all = []
+    end
+
 end
